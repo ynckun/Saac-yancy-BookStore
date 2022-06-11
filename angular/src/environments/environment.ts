@@ -10,7 +10,7 @@ export const environment = {
     logoUrl: '',
   },
   oAuthConfig: {
-    issuer: 'http://yancykun-001-site1.itempurl.com/',
+    issuer: 'http://yancykun-001-site1.itempurl.com',
     redirectUri: baseUrl,
     clientId: 'BookStore_App',
     responseType: 'code',
@@ -19,7 +19,7 @@ export const environment = {
   },
   apis: {
     default: {
-      url: 'http://yancykun-001-site1.itempurl.com/',
+      url: 'http://yancykun-001-site1.itempurl.com',
       rootNamespace: 'Acme.BookStore',
     },
   },
