@@ -1,6 +1,6 @@
 import { Environment } from '@abp/ng.core';
 
-const baseUrl = 'https://strong-salamander-dac723.netlify.app';
+const baseUrl = 'https://tourmaline-squirrel-a6ec21.netlify.app';
 
 export const environment = {
   production: true,
@@ -10,7 +10,7 @@ export const environment = {
     logoUrl: '',
   },
   oAuthConfig: {
-    issuer: 'http://yancy123-001-site1.btempurl.com',
+    issuer: 'http://yancykun-001-site1.itempurl.com',
     redirectUri: baseUrl,
     clientId: 'BookStore_App',
     responseType: 'code',
@@ -19,7 +19,7 @@ export const environment = {
   },
   apis: {
     default: {
-      url: 'http://yancy123-001-site1.btempurl.com',
+      url: 'http://yancykun-001-site1.itempurl.com',
       rootNamespace: 'Acme.BookStore',
     },
   },
